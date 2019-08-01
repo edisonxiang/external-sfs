@@ -18,6 +18,7 @@ This repository houses external sfs provisioner for OpenShift and Kubernetes.
 oc adm policy add-scc-to-user privileged system:serviceaccount:default:sfs-provisioner
 oc create -f https://raw.githubusercontent.com/huaweicloud/external-sfs/master/deploy/sfs-provisioner/openshift/statefulset.yaml
 ```
+* Test Build
 
 ### Usage
 
